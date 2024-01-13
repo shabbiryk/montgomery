@@ -126,11 +126,6 @@ console.log({
   maxS1: maxS1.toString(16),
   maxX: maxX.toString(16),
 });
-console.log({
-  maxBitsX: log2(maxX),
-  maxBitsS0: log2(maxS0),
-  maxBitsS1: log2(maxS1),
-});
 
 function signFromFlag(isNegative: number) {
   return isNegative ? -1n : 1n;
